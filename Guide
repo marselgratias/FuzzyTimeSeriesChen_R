@@ -1,0 +1,23 @@
+# GUIDE
+
+This application is used for forecasting using the Fuzzy Time Series method, following the algorithm proposed by Chen in 1994.
+The application is built with the R Shiny Web Application package, allowing it to be used online without the need to install R Studio Software
+
+# PANEL
+
+  1. Unggah File Excel:
+  This panel is used for uploading time series data that will be the forecasting object. 
+  The application only supports file formats with the .xlsx extension (Microsoft Excel). 
+  There are certain data adjustments required to be implemented for the data to be accepted by the application. 
+  One of these adjustments is adding a "penutupan" header to the Excel data sheet.
+
+  2. Masukkan nilai D1 & Masukkan nilai D2
+  This panel plays a role in determining the values of D1 and D2, which are positive coefficients that need to be defined by the researcher. 
+  This is related to the formula for creating the universe of discourse in Fuzzy Time Series.
+
+  and for panels below, only show you the output from Fuzzy Time Series Chen function
+  3. Data
+  4. Interval
+  5. FLR
+  6. FLRG
+  7. Ramalan
